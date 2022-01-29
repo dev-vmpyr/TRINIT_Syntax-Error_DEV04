@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(119, 197, 221), rgb(194, 136, 89));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    width: auto;
+    height: auto;       
+    padding: 30px;
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 16px #241f1f;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-container h1 {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+
+form {
+    font-size: 20px;
+}
+
+.form-input {
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-input input {
+    margin-bottom: 15px;
+    padding-left: 6px;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.search {
+    color: #fff;
+    background-color: rgb(128, 127, 127);
+    font-size: 30px;
+
+    width: 100%;
+    margin-left: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
